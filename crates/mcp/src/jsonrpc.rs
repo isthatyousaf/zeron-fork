@@ -64,9 +64,9 @@ from a Cloud chat it clones the same repository, and without `cloud` it shares y
 unless you name another device or project. From any chat, Cloud or not, you can list and \
 message chats on every one of the person's devices.\n\
 \n\
-`open_terminal` opens a shell on any online device (see `list_devices`); type into it with \
-`write_terminal`, read it with `read_terminal`, and close it with `close_terminal`. Only a chat \
-with full access and no sandbox may use one.\n\
+`run_command` runs a shell command on any online device (see `list_devices`) and returns its \
+output and exit code, as your own shell tool does here. Only a chat with full access and no \
+sandbox may use it.\n\
 \n\
 When a chart, table, diagram, dashboard, or 3D view would say more than prose and \
 `show_visual` is available, write a Luau visual script and show it with `show_visual` before \

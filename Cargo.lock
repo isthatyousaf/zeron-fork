@@ -13823,7 +13823,6 @@ dependencies = [
  "zeron-doc",
  "zeron-proto",
  "zeron-rpc",
- "zeron-term",
  "zeron-theme",
  "zeron-visual",
 ]
