@@ -571,4 +571,4 @@ mod tests {
     }
 }
 
-pub(crate) mod owned;
+pub mod owned;
